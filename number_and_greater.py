@@ -11,17 +11,15 @@ def main():
         try:
             number1 = int(input("Please enter your first number: "))
             number2 = int(input("Please enter your second number: "))
+            print()
 
             if number1 > number2:
-                print()
                 print(number1, "is greater")
 
             elif number2 > number1:
-                print()
                 print(number2, "is greater")
 
             else:
-                print()
                 print("Both numbers are equal")
 
         except ValueError:
